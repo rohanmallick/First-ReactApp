@@ -7,7 +7,7 @@ import Mid from "./componand/Midle";
 export const App = () => {
   return (
     <>
-      <Nav title="Profo" />
+      <Nav title="Profolio" />
       <Sec1 />
 
       <Mid />
