@@ -1,6 +1,24 @@
 import React from "react";
-import "../nav.css";
-import img from "../image/image1.jpg";
+import "../css/nav.css";
+import img from "../image/img45.jpg";
+import img1 from "../image/image21.jpg";
+import img2 from "../image/img2.jpg";
+
+// for goodmoring-part
+
+let curDate = new Date();
+curDate = curDate.getHours();
+let getting = "";
+
+if (curDate >= 1 && curDate < 12) {
+  getting = "Good Morning";
+} else if (curDate >= 12 && curDate < 18) {
+  getting = "Good Afternoon";
+} else {
+  getting = "Good Evening";
+}
+
+// for goodmoring-part-end
 
 export const SectionPart1 = () => {
   return (
@@ -41,7 +59,8 @@ export const SectionPart1 = () => {
             <div className="container">
               <div className="carousel-caption text-start">
                 <h1>
-                  <span className="link">Example</span> headline.
+                  <span className="link">{getting}</span>
+                  ,Guys.
                 </h1>
                 <p>
                   Some representative placeholder content for the first slide of
@@ -53,7 +72,7 @@ export const SectionPart1 = () => {
           <div className="carousel-item">
             <img
               className="bd-placeholder-img "
-              src={img}
+              src={img2}
               alt="random image"
               width="100%"
               height="700vh"
@@ -74,7 +93,7 @@ export const SectionPart1 = () => {
           <div className="carousel-item">
             <img
               className="bd-placeholder-img "
-              src={img}
+              src={img1}
               alt="random image"
               width="100%"
               height="700vh"

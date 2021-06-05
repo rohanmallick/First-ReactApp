@@ -1,0 +1,27 @@
+.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inbox {
+  background-image: url(../image/about.jpg);
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inbox p {
+  font-size: 1.3rem;
+  color: azure;
+}
+.inbox h1 {
+  font-size: 6.5rem;
+  color: azure;
+}
+.line-1 {
+  border-top: 1px solid black;
+}
