@@ -47,11 +47,11 @@ export const aboutmid = () => {
         </div>
         <div className="card col-md-3 col-sm-6 item" style={{ width: "18rem" }}>
           <i
-            className="fab fa-js-square  text-center  mt-5 icn"
-            style={{ color: "#f0db4f" }}
+            className="fab fa-python  text-center  mt-5 icn"
+            style={{ color: "#4B6EF5" }}
           ></i>
           <div className="card-body">
-            <h5 className="card-title text-center">Javascript</h5>
+            <h5 className="card-title text-center">python</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.

@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <>
       <Router>
-        <Nav title="Portfolio" />
+        <Nav title="Potfolio" />
         <Switch>
           <Route exact path="/">
             <Sec1 />

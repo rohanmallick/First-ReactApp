@@ -10,10 +10,10 @@ export const contact = () => {
           <div className="row mb-3 ">
             <div className="col-sm text-center">
               <h1 className="div-heading display-3 mt-2">
-                <span className="link">Contact US</span>
+                <span className="link">Contact Me</span>
               </h1>
               <h4 className="div-heading  mt-1">
-                <span className="text-danger">Get in touch with him</span>
+                <span className="text-danger">Get in touch with me</span>
               </h4>
             </div>
           </div>
@@ -54,13 +54,6 @@ export const contact = () => {
               </form>
             </div>
             <div className="col-md-6 para-con">
-              <h5 className="mb-2">
-                Address:
-                <small className="p-2">
-                  Venkatadri IT Park, HP Avenue, Konnappana, Electronic city,
-                  Bengaluru, Karnataka 560069
-                </small>
-              </h5>
               <h5>
                 Email:
                 <small className="p-2">rohanmallick1075@gmail.com</small>

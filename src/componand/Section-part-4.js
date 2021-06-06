@@ -1,5 +1,7 @@
 import React from "react";
-import Pic1 from "../image/pic1.jpeg";
+import Pic1 from "../image/pic14.jpg";
+import Pic2 from "../image/pic12.jpg";
+import Pic3 from "../image/pic13.jpg";
 // import "../css/contact-us.css";
 
 export const Section4 = () => {
@@ -33,7 +35,7 @@ export const Section4 = () => {
             <div className="col-lg-4 text-center">
               <div className="col-hd">
                 <img
-                  src={Pic1}
+                  src={Pic2}
                   className="bd-placeholder-img rounded-circle"
                   width="140"
                   alt="random"
@@ -54,7 +56,7 @@ export const Section4 = () => {
             <div className="col-lg-4 text-center">
               <div className="col-hd">
                 <img
-                  src={Pic1}
+                  src={Pic3}
                   className="bd-placeholder-img rounded-circle"
                   width="140"
                   alt="photos"
