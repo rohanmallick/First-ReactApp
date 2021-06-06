@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/First-ReactApp/static/css/main.6c18d050.chunk.css",
+    "main.js": "/First-ReactApp/static/js/main.416258c2.chunk.js",
+    "main.js.map": "/First-ReactApp/static/js/main.416258c2.chunk.js.map",
+    "runtime-main.js": "/First-ReactApp/static/js/runtime-main.199a66be.js",
+    "runtime-main.js.map": "/First-ReactApp/static/js/runtime-main.199a66be.js.map",
+    "static/js/2.608b1af9.chunk.js": "/First-ReactApp/static/js/2.608b1af9.chunk.js",
+    "static/js/2.608b1af9.chunk.js.map": "/First-ReactApp/static/js/2.608b1af9.chunk.js.map",
+    "index.html": "/First-ReactApp/index.html",
+    "static/css/main.6c18d050.chunk.css.map": "/First-ReactApp/static/css/main.6c18d050.chunk.css.map",
+    "static/js/2.608b1af9.chunk.js.LICENSE.txt": "/First-ReactApp/static/js/2.608b1af9.chunk.js.LICENSE.txt",
+    "static/media/contact-us.css": "/First-ReactApp/static/media/contact.00998a63.jpg",
+    "static/media/image21.dea64e0b.jpg": "/First-ReactApp/static/media/image21.dea64e0b.jpg",
+    "static/media/image5.9decca57.jpg": "/First-ReactApp/static/media/image5.9decca57.jpg",
+    "static/media/img2.35bb6034.jpg": "/First-ReactApp/static/media/img2.35bb6034.jpg",
+    "static/media/img45.906ecae3.jpg": "/First-ReactApp/static/media/img45.906ecae3.jpg",
+    "static/media/me.56627375.jpeg": "/First-ReactApp/static/media/me.56627375.jpeg",
+    "static/media/pic1.727e7f63.jpeg": "/First-ReactApp/static/media/pic1.727e7f63.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.199a66be.js",
+    "static/js/2.608b1af9.chunk.js",
+    "static/css/main.6c18d050.chunk.css",
+    "static/js/main.416258c2.chunk.js"
+  ]
+}
