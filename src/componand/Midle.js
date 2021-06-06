@@ -3,9 +3,10 @@ import Sec2 from "./Section-part-2";
 import Sec3 from "./Section-part-3";
 import Sec4 from "./Section-part-4";
 import Armap from "./Md-data";
+import Card from "./Section-part-5";
 
 const sc = (value, ind) => {
-  console.log(ind);
+  // console.log(ind);
   return (
     <>
       <Sec2
@@ -27,6 +28,7 @@ export const Mid = () => {
       <div className="container mt-5 mb-5 ">
         <Sec3 />
         {Armap.map(sc)}
+        <Card />
       </div>
       <Sec4 />
     </>

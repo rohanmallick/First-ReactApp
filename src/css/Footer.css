@@ -1,0 +1,11 @@
+.box-f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bk {
+  background-color: #e8e8e8;
+  background-size: cover;
+}

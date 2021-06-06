@@ -6,12 +6,13 @@ import Nav from "./componand/Nav";
 import Sec1 from "./componand/Section-part-1";
 import Mid from "./componand/Midle";
 import About from "./componand/about";
+import Footer from "./componand/Footer";
 
 export const App = () => {
   return (
     <>
       <Router>
-        <Nav title="Profolio" />
+        <Nav title="Portfolio" />
         <Switch>
           <Route exact path="/">
             <Sec1 />
@@ -22,6 +23,7 @@ export const App = () => {
             <About />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </>
   );

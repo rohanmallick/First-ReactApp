@@ -15,7 +15,7 @@ export const Section2 = (props) => {
         <div className="col-md-5">
           <img
             src={props.img}
-            alt=""
+            alt="section "
             style={{ width: "450px", height: "400px" }}
             className="
               bd-placeholder-img bd-placeholder-img-lg

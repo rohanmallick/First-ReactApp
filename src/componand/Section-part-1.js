@@ -51,7 +51,7 @@ export const SectionPart1 = () => {
             <img
               className="bd-placeholder-img "
               src={img}
-              alt="random image"
+              alt="random "
               width="100%"
               height="700vh"
             />
@@ -73,7 +73,7 @@ export const SectionPart1 = () => {
             <img
               className="bd-placeholder-img "
               src={img2}
-              alt="random image"
+              alt="random "
               width="100%"
               height="700vh"
             />
@@ -94,7 +94,7 @@ export const SectionPart1 = () => {
             <img
               className="bd-placeholder-img "
               src={img1}
-              alt="random image"
+              alt="random"
               width="100%"
               height="700vh"
             />

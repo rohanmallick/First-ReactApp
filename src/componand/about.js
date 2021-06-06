@@ -1,16 +1,16 @@
 import React from "react";
 import "../css/about.css";
+import Contact from "./contact-us";
+import Abmid from "./about-last";
+import Hrk from "./Hrk";
 
 export const about = () => {
   return (
     <>
-      <section className="box">
-        <div className="inbox">
-          <h1>ROHAN</h1>
-          <div className="line-1"></div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-      </section>
+      <Hrk />
+      <Abmid />
+
+      <Contact />
     </>
   );
 };

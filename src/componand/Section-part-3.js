@@ -1,5 +1,6 @@
 import React from "react";
 import img5 from "../image/image5.jpg";
+import "../css/nav.css";
 
 export const Section3 = () => {
   return (
@@ -19,7 +20,10 @@ export const Section3 = () => {
         "
         >
           <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <h1>Border hero with cropped image and shadows</h1>
+            <h1>
+              <span className="link">Border hero with cropped image</span>
+              and shadows
+            </h1>
             <p>
               Quickly design and customize responsive mobile-first sites with
               Bootstrap, the world’s most popular front-end open source toolkit,
@@ -28,14 +32,14 @@ export const Section3 = () => {
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
               <a
-                href="#"
+                href="https://github.com/rohanmallick"
                 className="btn btn-primary my-2 btn-lg px-4 me-md-2 fw-bold"
               >
                 Github <i className="fab fa-github"></i>
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/rohan-mallick-515317210/"
                 className="btn btn-secondary my-2 btn-lg px-4 me-md-2 fw-bold"
               >
                 Linkedin <i className="fab fa-linkedin"></i>
@@ -46,9 +50,9 @@ export const Section3 = () => {
             <img
               className="rounded-lg-3 "
               src={img5}
-              alt="pic "
+              alt="selce"
               width="100%"
-              height="450vh"
+              height="400vh"
             />
           </div>
         </div>
